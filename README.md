@@ -7,6 +7,6 @@ Welcome to the limited space — Intrastellar: Where only the orbits are infinit
 ## Preview
 Have a look on [Codepen](https://codepen.io/raghav-karn/pen/LEPROaj)!
 
-![Intrastellar Animation](Intrastellar.png)
+![Intrastellar Animation](preview.png)
 
 ---
