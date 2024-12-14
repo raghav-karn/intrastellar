@@ -1,5 +1,5 @@
 body{
-    background: #101227;
+    background: #0b0611;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -10,8 +10,8 @@ body{
     width: 30em;
     height: 30em;
     border-radius: 50%;
-    background: white;
-    box-shadow: 0 0 5em 0 rgb(254 216 76 / 50%), 0 0 20em 4em rgb(232 165 82 / 20%), 0 0 55em 8em rgb(255 77 77 /10%);
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 5em 0 rgba(231, 221, 185, 0.5), 0 0 20em 4em rgba(233, 213, 190, 0.2), 0 0 55em 8em rgba(240, 202, 202, 0.1);
     position: relative;
 }
 
@@ -24,21 +24,21 @@ body{
 }
 
 .satellite{
-    background: #ffedd1;
+    background: #000000;
     box-shadow: -2em 0 5em -1em white;
     overflow: hidden;
     transition: 250ms;
     left: 32em;
     transform: rotate(20deg);
-    animation: round 5s infinite ease-in-out;
+    animation: round 3.5s infinite ease-in-out;
 }
 
 .satellite::after{
-    background: #262938;
+    background: #949494;
     width: 2.5em;
     left: 2.5em;
     box-shadow: 0 0 0.75em 0.95em #262938;
-    animation: shadow 5s infinite ease-in-out;
+    animation: shadow 3.5s infinite ease-in-out;
 }
 
 @keyframes shadow{
@@ -84,7 +84,7 @@ body{
 
 @keyframes round {
     0%, 100%{
-        top: 2em;
+        top: 6em;
         left: -15em;
         box-shadow: -2em 0 5em 0.5em rgb(198 131 100 / 40%);
         z-index: 2;
