@@ -6,4 +6,4 @@ Welcome to the limited space — Intrastellar: Where only the orbits are infinit
 
 ## Preview
 
-![Intrastellar Animation](intrastellar.png)
+![Intrastellar Animation](Intrastellar.png)
